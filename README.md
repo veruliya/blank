@@ -6,7 +6,7 @@ Our React starter kit provides a robust, modern starting point for building Lara
 
 Inertia allows you to build modern, single-page React applications using classic server-side routing and controllers. This lets you enjoy the frontend power of React combined with the incredible backend productivity of Laravel and lightning-fast Vite compilation.
 
-This React starter kit utilizes React, TypeScript, and Tailwind, but **does not include any authentication scaffolding**.
+This React starter kit utilizes React, TypeScript, and ~~Tailwind~~, but **does not include any authentication scaffolding**.
 
 ## Official Documentation
 
