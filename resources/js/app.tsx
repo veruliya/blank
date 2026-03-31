@@ -1,6 +1,5 @@
 import { createInertiaApp, router } from '@inertiajs/react';
 import { Provider } from '@react-spectrum/s2';
-import '@react-spectrum/s2/page.css';
 
 const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
 
