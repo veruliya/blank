@@ -11,7 +11,7 @@ createInertiaApp({
   withApp: (app) => {
     return (
       <Provider
-        locale="en-US"
+        locale="en-ID"
         router={{
           navigate: (path, routerOptions) => router.visit(path, routerOptions)
         }}
