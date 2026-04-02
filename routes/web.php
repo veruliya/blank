@@ -3,7 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EmployeeController;
 
-Route::inertia('/', 'welcome')->name('home');
+Route::get('/', function () {
+    return to_route('employees.index');
+});
 
 Route::prefix('employees')->controller(EmployeeController::class)->group(function () {
     Route::get('/', 'index')->name('employees.index');
